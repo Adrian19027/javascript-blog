@@ -128,9 +128,13 @@ body {
 
 .post-tags {
     display: flex;
-
+    flex-wrap: wrap;
+    gap: 10px;
     p {
         margin: 0 10px 0 0;
+    }
+    a {
+        margin: 0 5px 0 0;
     }
 }
 
@@ -215,5 +219,14 @@ body {
     .posts,
     .sidebar {
         padding: 15px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .post-tags {
+        flex-wrap: wrap;
+        /* Upewnia się, że tagi zawijają się poprawnie */
+        gap: 10px;
+        /* Dodatkowy odstęp */
     }
 }
