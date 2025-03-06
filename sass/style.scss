@@ -26,6 +26,16 @@ body {
     line-height: 1.7;
 }
 
+body a {
+    text-decoration: none;
+    font-weight: 700;
+    color: green;
+}
+
+body a.active {
+    color: rgb(10, 57, 10);
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -122,8 +132,9 @@ body {
     }
 }
 
-.post-author {
+.post .post-author a {
     font-style: italic;
+    list-style-type: none;
 }
 
 .post-tags {
