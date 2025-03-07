@@ -149,6 +149,36 @@ body a.active {
     }
 }
 
+.tag-size-1 {
+    font-size: 16px;
+    color:  #83d158;
+}
+
+.tag-size-2 {
+    font-size: 24px;
+    color: #429c0f;
+}
+
+.tag-size-3 {
+    font-size: 32px;
+    color: #357412;
+}
+
+.tag-size-4 {
+    font-size: 40px;
+    color: #1a3e06;
+}
+
+.sidebar .list.tags li {
+    display: inline;
+    margin-right: 5px;
+}
+
+.sidebar-tags ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* Dla tabletów (max 1024px) */
 @media (max-width: 1024px) {
     .container {
