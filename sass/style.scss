@@ -169,8 +169,21 @@ body a.active {
     color: #1a3e06;
 }
 
+.author-size-1 {
+    font-size: 12px;
+}
+
+.author-size-2 {
+    font-size: 18px;
+}
+
 .sidebar .list.tags li {
     display: inline;
+    margin-right: 5px;
+}
+
+.sidebar .list.authors li {
+    display : inline;
     margin-right: 5px;
 }
 
